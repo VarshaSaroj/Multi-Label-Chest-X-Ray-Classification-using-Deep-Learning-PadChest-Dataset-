@@ -1,27 +1,47 @@
-# Multi-Label-Chest-X-Ray-Classification-using-Deep-Learning-PadChest-Dataset-
-This is an independent research project, aimed at developing a multi-label classification system for thoracic disease detection from chest X-ray images using the PadChest dataset, collected from Hospital San Juan de Alicante, Spain.
+# Multi-Label Chest X-Ray Classification using Deep Learning (PadChest Dataset)
+📍 Project Overview
+This repository contains my independent research project, focusing on multi-label classification of thoracic diseases from chest X-ray images using Convolutional Neural Networks (CNNs) and the PadChest dataset.
 
-Initially explored during my MSc Computer Science program at Banaras Hindu University (BHU), I am now continuing this project post-degree to deepen my understanding of medical image analysis and deep learning for healthcare applications.
+The project was originally conceptualized during my MSc Computer Science studies at Banaras Hindu University (BHU).
+Currently, I am continuing and expanding the work post-degree as part of my ongoing learning and research in AI for Healthcare.
 
-Dataset Overview:
+📊 Dataset: PadChest
+Source: Hospital San Juan de Alicante, Spain
 
-Over 160,000 high-resolution chest X-ray images from 67,000 patients
+Size: 160,000+ chest X-ray images
 
-Annotated with 174 radiological findings, 19 differential diagnoses, and 104 anatomical locations
+Labels: 174 radiological findings, 19 differential diagnoses, 104 anatomical locations
 
-Hierarchically structured using UMLS terminology
+Annotation: 27% manually labeled by physicians, rest via AI-based NLP pipeline (RNN with attention mechanism)
 
-Project Focus Areas:
+Access: Available for research use upon formal request (Follow PadChest Data Use Agreement)
 
-Medical image preprocessing and normalization
+🎯 Project Objectives
+Medical image preprocessing and augmentation
 
-Handling large-scale multi-label classification challenges
+Multi-label classification model development using CNNs
 
-Designing and training CNN-based deep learning models
+Handling label imbalance (e.g., using weighted loss functions or sampling techniques)
 
-Tackling label imbalance issues
+Model evaluation using AUC, Micro-F1, Precision, Recall
 
-Model evaluation using metrics like AUC, Micro-F1 score, and Precision-Recall curves
+Visualization of training results and performance metrics
 
-Tools & Technologies:
-Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
+🛠️ Technologies & Tools
+Python 3.x
+
+TensorFlow
+
+Keras
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebooks
