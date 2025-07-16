@@ -45,3 +45,12 @@ Matplotlib
 Seaborn
 
 Jupyter Notebooks
+
+### 📂 Dataset Notice
+
+**Note:**  
+Due to the large size (~1 TB) and license restrictions, the full **PadChest** dataset is **not included** in this repository.  
+
+If you'd like to access the dataset, please refer to the official source and follow the data usage agreement:  
+🔗 [PadChest Dataset – Official Website](https://bimcv.cipf.es/bimcv-projects/padchest)
+
