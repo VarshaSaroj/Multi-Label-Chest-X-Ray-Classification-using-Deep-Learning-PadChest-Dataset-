@@ -41,3 +41,27 @@ saved_models/
 .vscode/
 .DS_Store
 Thumbs.db
+# Ignore large data and model files
+*.zip
+*.gz
+*.tar
+*.h5
+*.pt
+*.ckpt
+
+# Ignore dataset metadata
+*.csv
+*.xlsx
+
+# Ignore backup files
+.ipynb_checkpoints/
+
+# Ignore OS or IDE files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Logs and temp
+*.log
+*.tmp
+
